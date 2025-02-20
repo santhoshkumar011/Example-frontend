@@ -10,7 +10,7 @@ export default function Form() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/submit", {
+    const response = await fetch("https://3d6c-2405-201-e02f-1120-50ce-f622-6f1e-5e4f.ngrok-free.app ", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
