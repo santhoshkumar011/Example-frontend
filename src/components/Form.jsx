@@ -10,7 +10,7 @@ export default function Form() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://aa54-2409-40f4-af-68d0-4c78-1f9c-b903-61c.ngrok-free.app/submit", {
+    const response = await fetch("https://example-backend-g6ah.onrender.com/submit", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
